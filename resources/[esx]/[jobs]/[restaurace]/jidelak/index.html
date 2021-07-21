@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+
+            #napojak {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="napojak" style="display: none;">
+            <img id="img" src="./zensai_menu.png" height="70%" />
+        </div>
+
+        <script>
+            window.addEventListener('message', (event) => {
+                if (event.data.type === 'open') {
+                    document.getElementById("img").setAttribute('src', event.data.imgUrl)
+                    document.getElementById("napojak").style.display = "flex"
+                } else if (event.data.type === 'close') {
+                    document.getElementById("napojak").style.display = "none"
+                }
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <style>
+            * {
+                text-decoration: none;
+                font-family: montserrat;
+                box-sizing: border-box;
+            }
+
+            .sms-text {
+                display: none;
+                position: fixed;
+                bottom: 12%;
+                right: 25%;
+                min-width: 200px;
+                max-width: 420px;
+                color: white;
+            }
+            .sms-text__title {
+                display: flex;
+                align-items: center;
+                background: rgba(22, 22, 22, 0.85); 
+                width: 100%;
+                height: 40px;
+                padding: 10px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+            .sms-text__message {
+                padding: 10px;
+                display: flex;
+                background: rgba(11, 11,11, 0.85);
+                width: 100%;
+                min-height: 50px;
+                max-height: 150px;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="sms-text" id="sms">
+            <div id="sms-title" class="sms-text__title">Title</div>
+            <div id="sms-message" class="sms-text__message">Text</div>
+        </div>
+
+        <script>
+            window.addEventListener('message', function(event) {
+		        if (event.data.type === "sendNotificaton") {
+                    document.getElementById("sms").style.display = 'block'
+                    document.getElementById("sms-title").textContent = event.data.contact
+
+                    document.getElementById("sms-title").style.background = event.data.color
+                    document.getElementById("sms-message").style.background = event.data.color
+
+                    if (event.data.text.length > 200) {
+                        document.getElementById("sms-message").textContent = event.data.text.slice(0, 200) + "..."
+                    } else {
+                        document.getElementById("sms-message").textContent = event.data.text
+                    }
+                }
+                if (event.data.type === "clearNotification") {
+                    document.getElementById("sms").style.display = 'none'
+                    document.getElementById("sms-title").textContent = ''
+                    document.getElementById("sms-message").textContent = ''
+                }
+	        });
+        </script>
+    </body>
+</html>

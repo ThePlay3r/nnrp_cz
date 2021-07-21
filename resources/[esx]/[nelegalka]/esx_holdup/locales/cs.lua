@@ -1,0 +1,16 @@
+Locales['cs'] = {
+  ['shop_robbery'] = 'Vykradani obchodu',
+  ['press_to_rob'] = 'Zmackni ~INPUT_CONTEXT~ pro ~o~vykradeni~s~ ~b~%s~s~',
+  ['robbery_timer'] = 'Vykradani obchodu: Zbyva ~r~%s~s~ sekund',
+  ['recently_robbed'] = 'Tento obchod byl nedavno vykraden. Prosim pockej ~y~%s~s~ sekund pro dalsi vykradacku',
+  ['rob_in_prog'] = '~r~Probiha vykradani: ~b~%s~s~',
+  ['started_to_rob'] = 'Zacal/a jsi vykradat ~y~%s~s~',
+  ['alarm_triggered'] = 'Poplach byl spusten!',
+  ['robbery_complete'] = '~r~Vykradeni probehlo uspesne!~s~, ~o~Ukradl/a jsi~s~ ~g~$%s~s~',
+  ['robbery_complete_at'] = '~r~Vykradani probeho uspesne: ~y~%s~s~',
+  ['robbery_cancelled'] = 'Vykradani bylo ukonceno!',
+  ['robbery_cancelled_at'] = '~r~Vykradani ~b~%s~s~ bylo ukonceno!',
+  ['min_police'] = 'Ve meste musi byt minimalne ~b~%s policistu~s~, abys mohl/a vykradat.',
+  ['robbery_already'] = '~r~Vykradani jiz probiha.',
+  ['no_threat'] = 'Pro prodavace nejsi zadna hrozba!',
+}

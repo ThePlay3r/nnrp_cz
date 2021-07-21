@@ -1,0 +1,60 @@
+Config.Shopy['zensai'] = {
+    Pos   = {x = 2589.61, y = 4678.27, z = 33.08},
+    Size  = { x = 1.1, y = 1.1, z = 0.3 },
+    Color = { r = 255, g = 119, b = 0 },
+    Type  = 1,
+    Items = {
+        { name = 'ice',   label = 'Led',    price = 5 },
+        { name = 'onion',       label = 'Cibule',        price = 100 },
+        { name = 'wrapper',    label = 'Wrapper',     price = 10 },
+        { name = 'soy_sauce',    label = 'Sojova omacka',     price = 10 },
+        { name = 'oil',    label = 'Olej',     price = 10 },
+        { name = 'avocado',    label = 'Avokado',     price = 100 },
+        { name = 'meat',    label = 'Kureci maso',     price = 15 },
+        { name = 'carnep',    label = 'Mlete maso',     price = 15 },
+        { name = 'ovo',    label = 'Vejce',     price = 10 },
+        { name = 'alface',    label = 'Zeli',     price = 100 },
+        { name = 'carrot',    label = 'Mrkev',     price = 100 },
+        { name = 'ginger',    label = 'Zazvor',     price = 100 },
+        { name = 'kolacky_stesti',    label = 'Kolacky stesti',     price = 100 },
+        { name = 'water',    label = 'Voda',     price = 10 },
+        { name = 'noodles',    label = 'Nudle',     price = 10 },
+        { name = 'rice',    label = 'Ryze',     price = 100 },
+        { name = 'sesame',    label = 'Sezamova seminka',     price = 5 },
+        { name = 'nori',    label = 'Rasa Nori',     price = 5 },
+        { name = 'wasabi',    label = 'Wasabi',     price = 10 },
+        { name = 'freshsalmon',    label = 'Losos',     price = 15 },
+        { name = 'cucumber',    label = 'Okurka',     price = 100 },
+        { name = 'pecivo',    label = 'Pecivo',     price = 5 },
+        { name = 'cocacola',    label = 'Coca Cola',     price = 5 },
+        { name = 'icetea',    label = 'Ledovy caj',     price = 5 },
+        { name = 'drpepper',    label = 'Dr. Pepper',     price = 5 },
+        { name = 'fanta',    label = 'Fanta',     price = 5 },
+        { name = 'energy',    label = 'Energy drink',     price = 5 },
+    },
+}
+
+local foodSellPrice = 660
+
+Config.Sell['zensai'] = {
+    Pos     = { x = 1181.08, y = -3288.33, z = 4.54 },
+    Size  = { x = 1.5, y = 1.5, z = 0.4 },
+    Color = { r = 255, g = 119, b = 0 },
+    Type  = 1,
+    Items = {
+        --HLAVNI JIDLA
+        {item = 'kungpao', price = foodSellPrice},
+        {item = 'sushi_nigiri', price = foodSellPrice},
+        {item = 'sushi_maki', price = foodSellPrice},
+        {item = 'sushi_california', price = foodSellPrice},
+        {item = 'sushi_sashimi', price = foodSellPrice},
+        {item = 'onigiri', price = foodSellPrice},
+        {item = 'zavitky', price = foodSellPrice},
+        {item = 'banh_mi', price = foodSellPrice},
+        {item = 'ramen', price = foodSellPrice},
+        {item = 'temaki', price = foodSellPrice},
+        {item = 'temari', price = foodSellPrice},
+        {item = 'tamago', price = foodSellPrice},
+        {item = 'gunkan', price = foodSellPrice},
+    }
+}

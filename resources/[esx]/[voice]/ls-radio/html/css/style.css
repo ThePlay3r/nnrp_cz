@@ -1,0 +1,105 @@
+body {
+    position: relative;
+    font-family: sans-serif;
+    overflow: hidden;
+    display: none;
+    top: 0;
+}
+
+/*
+.radio {
+ background-image: url("../img/radio.png");
+ background-repeat: no-repeat;
+ background-size: auto;
+ background-attachment: fixed;
+
+}
+*/
+
+#cursor {
+    position: absolute;
+    z-index: 999999;
+    display: none;
+}
+
+#radio {
+  width: 367px;
+  height: 795px;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+
+#onoff {
+  position: absolute;
+  top: 40.7%;
+  right: 4px;
+  padding: 40px 40px;
+  background: transparent;
+  border: none;
+}
+
+#onoff button {
+ width: 91px;
+ height: 60px;
+ outline: none !important;
+ background: rgba(38, 22, 0, 0.30) !important;
+ transition: all 0.4s;
+ -webkit-clip-path: polygon(11px 17px,13px 11px,17px 5px,23px 2px,81px 14px,85px 19px,87px 26px,83px 49px,81px 48px,9px 34px);
+}
+#onoff button:hover {
+  background: rgba(117, 68, 0, 0.60) !important;
+}
+
+.ekran {
+  position: absolute;
+  background-color: #d6c9b7;
+  padding: 95px 100px;
+  top: 71%;
+  left: 22.5%;
+}
+
+.channel {
+  position: absolute;
+  width: 200px;
+  top: 0%;
+  left: 0%;
+}
+
+.channel span {
+  text-align: center;
+}
+
+.channel input {
+  text-align: center;
+  border: none;
+  border-bottom: 2px solid black;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #d6c9b7;
+  padding: 25px 30px;
+  font-size: 34px;
+  outline: none;
+}
+
+.channel button {
+  width: 200px;
+  height: 46px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  background: #b89d77;
+  transition: all 0.4s;
+}
+
+.channel button:hover {
+  background: #997b51;
+}
+
+.channel input::-webkit-outer-spin-button,
+.channel input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+
+            #napojak {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="napojak" style="display: none;">
+            <img src="./napojak_galdin.png" height="750px" />
+        </div>
+
+        <script>
+            window.addEventListener('message', (event) => {
+                if (event.data.type === 'open') {
+                    document.getElementById("napojak").style.display = "flex"
+                } else if (event.data.type === 'close') {
+                    document.getElementById("napojak").style.display = "none"
+                }
+            });
+        </script>
+    </body>
+</html>

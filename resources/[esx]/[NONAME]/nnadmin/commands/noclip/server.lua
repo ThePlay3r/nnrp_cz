@@ -1,0 +1,5 @@
+TriggerEvent('es:addGroupCommand', 'noclip', "helper", function(source, args, user)
+	TriggerClientEvent("nnadmin:noclip", source)
+end, function(source, args, user)
+	TriggerClientEvent('chat:addMessage', source, { args = {"^1SYSTEM", "Insufficienct permissions!"} })
+end, {help = "Enable or disable noclip"})

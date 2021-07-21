@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+
+            #jidelak2 {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="jidelak2" style="display: none;">
+            <img id="img" src="./steakhouse.png" height="80%" />
+        </div>
+
+        <script>
+            window.addEventListener('message', (event) => {
+                if (event.data.type === 'open') {
+                    document.getElementById("jidelak2").style.display = "flex"
+                } else if (event.data.type === 'close') {
+                    document.getElementById("jidelak2").style.display = "none"
+                }
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('http://cloud.feio.cz/nnrp/nnrpbgleto.png');
+      background-size: cover;
+      overflow: hidden;
+      font-family: 'Segoe UI';
+    }
+    .info {
+      position: fixed;
+      top: 10px;
+      width: 100%;
+      text-align: center;
+      left: 0;
+      font-weight: bold;
+      font-size: 20px;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="info">
+    Pro spuštění/pozastavení stiskni MEZERNÍK
+  </div>
+  <video id="video" width="100%" height="100%">
+    <source src="http://cloud.nago.fun/loading.mp4" type="video/mp4">
+  </video>
+
+  <script>
+    let isStarted = false
+    let isPaused = false
+    document.onkeydown = checkKey;
+
+    function checkKey(e) {
+        e = e || window.event;
+
+        if (e.keyCode == '32') {
+          if (isStarted === false) {
+            document.getElementById("video").play()
+            document.getElementById("video").volume = 0.25
+            isStarted = true
+          } else if (isPaused) {
+            document.getElementById("video").play()
+            document.getElementById("video").volume = 0.25
+            isPaused = false
+          } else {
+            document.getElementById("video").pause()
+            isPaused = true
+          }
+        }
+    }
+  </script>
+</body>
+
+</html>

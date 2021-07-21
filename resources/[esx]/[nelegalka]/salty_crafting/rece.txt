@@ -1,0 +1,70 @@
+30s na blizko
+1m je jedna zbran
+1.5m velky zbrane
+
+za 1h chceme cca 3 combat pistole
+
+5s na zelezo
+5s na soucastky
+
+6ks za minutu
+za 55m 330ks
+
+~80k
+
+BOXER: 20*
+BAT: 7*
+BATERKA: 7*
+CROWBAR: 30*
+HAMMER: 30*
+BATTLEAXE: 65*
+TAZER: 85*
+SWITCHBLADE: 12*
+KNIFE: 12*
+
+SNS: 80*
+HEAVYREVOLVER: 340*
+HEAVYPISTOL: 170*
+DOUBLEACTION: 680*
+VINTAGE: 180*
+MARKSMAN: 180*
+PISTOL: 110*
+COMBAT: 110*
+PISTOL50: 340*
+
+PUMP: 560*
+SAWEDOFF: 510*
+MUSKET: 650*
+
+-------------------
+CARBINERIFLE: 620
+APPISTOL: 390
+MACHINEPISTOL: 420
+
+MICROSMG: 460
+MINISMG: 480
+SMG: 490
+ASSAULTSMG: 500
+
+COMBATPDW: 610
+ADVANCEDRIFLE: 710
+BULLPUPRIFLE: 720
+COMPACTRIFLE: 745
+BULLPUPSHOTGUN: 750
+
+soucastky: 450
+iron: 350
+
+--------------------
+compact rifle - 310x iron, 250x weapon piece. Pasivni 155k.
+assault rifle - 
+advanced rifle - 310x iron, 260x weapon piece. Pasivni 160k
+smg - 290x iron, 200x weapon piece. Pasivni prodej 75k
+heavy shotgun -
+double barrel shotgun -
+
+
+CarbineRifle - 335 iron, 300x weapon piece. Cena 270k. Pasivni prodej 215k
+CombatPDW - 310x iron, 300x weapon piece. Cena 240k. Pasivni prodej 195k
+flare - 2x iron, 3x weapon piece. Pasivne prodavat nepujde.
+flaregun - 1x iron, 6x weapon piece. Pasivne prodavat nepujde

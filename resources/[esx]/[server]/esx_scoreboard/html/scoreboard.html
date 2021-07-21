@@ -1,0 +1,60 @@
+<html>
+
+<head>
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="nui://esx_scoreboard/html/listener.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="nui://esx_scoreboard/html/style.css">
+</head>
+
+<body>
+	<div style="display: none;" id="wrap">
+
+		<div class="header">
+			<div class="jobs">
+				<p style="color:#fd2525;"> <img src='http://cloud.feio.cz/scoreboard/ems.svg?=v0' /> <span id="ems">0</span> </p>
+				<p style="color:#3498db;"> <img src='http://cloud.feio.cz/scoreboard/pd.svg?=v0' /> <span id="police">0</span> </p>
+				<p style="color:#d19924; display: none;"> <img src='http://cloud.feio.cz/scoreboard/sheriff.svg?=v0' /> <span id="sheriff">0</span> </p>
+				<p style="color:#ff4600;"> <img src='http://cloud.feio.cz/scoreboard/fd.svg' /> <span id="hasici">0</span> </p>
+				<p style="color:#fffa00;"> <img src='http://cloud.feio.cz/scoreboard/taxi.svg?=v0' /> <span id="taxi">0</span> </p>
+				<p style="color:#206694;"> <img src='http://cloud.feio.cz/scoreboard/lsc.svg?=v0' /> <span id="mechanic">0</span> </p>
+				<p style="color:#1f8b4c;"> <img src='http://cloud.feio.cz/scoreboard/bennys.svg?=v0' /> <span id="mecano">0</span> </p>
+				<p style="color:#c27c0e; display: none;"> <img src='http://cloud.feio.cz/scoreboard/vlada.svg?=v0' /> <span id="state">0</span> </p>
+				<p style="color:#fdf336;"> <img src='http://cloud.feio.cz/scoreboard/galdin.svg' /> <span id="galdin">0</span> </p>
+				<p style="color:#00ffff;"> <img src='http://cloud.feio.cz/scoreboard/unicorn.svg?=v0' /> <span id="unicorn">0</span> </p>
+				<p style="color:#71368a;"> <img src='http://cloud.feio.cz/scoreboard/vinari.svg' /> <span id="vigne">0</span> </p>
+				<p style="color:#b0fff5;"> <img src='http://cloud.feio.cz/scoreboard/bazar.svg?=v1' /> <span id="bazar">0</span> </p>
+				<p style="color:#ff4242;"> <img src='http://cloud.feio.cz/scoreboard/bazar-bene.svg?=v1' /> <span id="benefactor">0</span> </p>
+				<p style="color:#ff4242; display: none;"> <img src='http://cloud.feio.cz/scoreboard/casino.svg?=v0' /> <span id="casino">0</span> </p>
+				<p style="color:#ffc9c9; display: none;"> <img src='http://cloud.feio.cz/scoreboard/sushikura.svg' /> <span id="cozinheiro">0</span> </p>
+				<p style="color:#af2714;"> <img src='http://cloud.feio.cz/scoreboard/steakhouse.svg' /> <span id="steakhouse">0</span> </p>
+				<p style="color:#99724c;"> <img src='http://cloud.feio.cz/scoreboard/kavarna.svg' /> <span id="coffee">0</span> </p>
+				<p style="color:#ff486b;"> <img src='http://cloud.feio.cz/scoreboard/pivko.svg' /> <span id="pivovar">0</span> </p>
+				<p style="color:#3b7430;"> <img src='http://cloud.feio.cz/scoreboard/kukurice.svg' /> <span id="farma">0</span> </p>
+				<p style="color:#795d02;"> <img src='http://cloud.feio.cz/scoreboard/ranch.svg' /> <span id="ranch">0</span> </p>
+				<p style="color:#26b425;"> <img src='http://cloud.feio.cz/scoreboard/kamionaci.svg' /> <span id="easyway">0</span> </p>
+				<p style="color:#00ff97; display:none;"> <img src='http://cloud.feio.cz/scoreboard/noviny.svg?=v1' /> <span id="lifeinvader">0</span> </p>
+				<p style="color:#ffb000;"> <img src='http://cloud.feio.cz/scoreboard/ammu.svg?=v1' style="height: 27px;" /> <span id="ammu">0</span> </p>
+			</div>
+		</div>
+
+		<div class="playerlist">
+			<table id="playerlist" width="100%">
+				<tr class="heading">
+					<th>Steam Jmeno</th>
+					<th>ID</th>
+					<th>Ping</th>
+					<th>Steam Jmeno</th>
+					<th>ID</th>
+					<th>Ping</th>
+				</tr>
+			</table>
+		</div>
+
+		<div class="serverinfo">
+			Online hráčů: <span id="player_count">0</span> / <span id="max_players">0</span> <span style="font-size: 1.2vw"></span>
+		</div>
+
+	</div>
+</body>
+
+</html>

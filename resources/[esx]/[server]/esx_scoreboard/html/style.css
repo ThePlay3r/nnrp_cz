@@ -1,0 +1,92 @@
+html {
+	color: #34495e;
+	font-family: 'Segoe UI';
+}
+
+#wrap {
+	width: 1320px;
+	max-width: 1320px;
+	min-height: 185px;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	background: url('http://cloud.feio.cz/nnrpbgletoblack.png');
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5), 0px 2px 10px 0px rgba(0, 0, 0, 0.5);
+	color: rgba(255, 255, 255, 0.9);
+	border-radius: 2px;
+	opacity: 0.95;
+}
+
+p {
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	margin-left: 10px;
+	padding-left: 10px;
+	text-align: center;
+	font-size: 1.05vw;
+}
+
+p img {
+	height: 23px;
+	margin-right: 7px;
+}
+
+.header {
+	font-family: 'Segoe UI';
+	width: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-top-left-radius: 2px 2px;
+	border-top-right-radius: 2px 2px;
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.jobs {
+	font-family: 'Segoe UI';
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.jobs p {
+	font-family: 'Segoe UI';
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+table {
+	text-align: left;
+	color: white;
+}
+
+th, td {
+	padding-left: 25px;
+}
+
+th {
+	padding-top: 10px;
+	height: 40px;
+}
+
+tr {
+	font-size: 0.7vw;
+	font-family: 'Segoe UI';
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+tr.heading {
+	font-size: 0.8vw;
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.serverinfo {
+	padding: 5px 0;
+	font-size: 0.7vw;
+	text-align: center;
+}

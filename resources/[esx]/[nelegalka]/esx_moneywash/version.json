@@ -1,0 +1,7 @@
+{
+		"version":"0.1.2",
+		"patchnotes" : [
+			"- Removed __resource.lua to update to newer manifest",
+			"- Added fxmanifest.lua to bring resource up to newest manifest"
+		]
+}

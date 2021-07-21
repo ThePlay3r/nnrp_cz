@@ -1,0 +1,78 @@
+Locales['cs'] = {
+	['press_collect_coke'] = 'Zmackni ~INPUT_CONTEXT~ pro sbirani kokainu.',
+	['press_process_coke'] = 'Zmackni ~INPUT_CONTEXT~ pro zpracovani kokainu.',
+	['press_sell_coke'] = 'Zmackni ~INPUT_CONTEXT~ pro prodej kokainu.',
+	['press_collect_meth'] = 'Zmackni ~INPUT_CONTEXT~ pro sbirani pervitinu.',
+	['press_process_meth'] = 'Zmackni ~INPUT_CONTEXT~ pro zpracovani pervitinu.',
+	['press_sell_meth'] = 'Zmackni ~INPUT_CONTEXT~ pro prodej pervitinu.',
+	['press_collect_weed'] = 'Zmackni ~INPUT_CONTEXT~ pro sbirani travy.',
+	['press_process_weed'] = 'Zmackni ~INPUT_CONTEXT~ pro opracovani travy.',
+	['press_sell_weed'] = 'Zmackni ~INPUT_CONTEXT~ pro prodej travy.',
+	['press_collect_opium'] = 'Zmackni ~INPUT_CONTEXT~ pro sbirani opia.',
+	['press_process_opium'] = 'Zmackni ~INPUT_CONTEXT~ pro zpracovani opia.',
+	['press_sell_opium'] = 'Zmackni ~INPUT_CONTEXT~ pro prodej opia.',
+	['press_collect_cigar'] = 'Zmackni ~INPUT_CONTEXT~ pro baleni cigar.',
+	['press_process_cigar'] = 'Zmackni ~INPUT_CONTEXT~ pro krabickovani cigar.',
+	['press_sell_cigar'] = 'Zmackni ~INPUT_CONTEXT~ pro prodej cigar.',
+
+	['press_collect_lsd'] = 'Zmackni ~INPUT_CONTEXT~ pro sbirani lsd.',
+	['press_process_lsd'] = 'Zmackni ~INPUT_CONTEXT~ pro zpracovani lsd.',
+	['press_sell_lsd'] = 'Zmackni ~INPUT_CONTEXT~ pro prodej lsd.',
+
+	['act_imp_police'] = 'Nemuzes delat nelegalni cinnost! Na serveru neni dostatek PD.',
+	
+	['pickup_in_prog'] = '~y~Probiha sbirani~s~...',
+	['too_many_pouches'] = 'Jiz mas mnoho balicku.',
+	['packing_in_prog'] = '~y~Probiha baleni~s~...',
+	
+	['inv_full_coke'] = 'Jiz nemuzes sbirat kokain, tvuj inventar je ~r~plny~s~.',
+	['not_enough_coke'] = 'Nemas dostatek kokainu k ~r~zabaleni~s~.',
+	['no_pouchs_sale'] = 'Jiz nemas vice balicku na ~r~prodej~s~.',
+	['sold_one_coke'] = 'Prodal/a jsi ~y~x1~s~ ~y~Balicek kokainu~s~',
+	
+	['sale_in_prog'] = '~g~Probiha prodej~s~...',
+	
+	['inv_full_meth'] = 'Jiz nemuzes sbirat pervitin, tvuj inventar je ~r~plny~s~.',
+	['not_enough_meth'] = 'Nemas dostatek pervitinu k ~r~zabaleni~s~.',
+	['sold_one_meth'] = 'Prodal/a jsi ~y~x1~s~ ~y~Balicek pervitinu~s~',
+	['used_one_meth'] = 'Uzil/a jsi 1 balicek ~b~pervitinu',
+	
+	['inv_full_weed'] = 'Jiz nemuzes sbirat travu, tvuj inventar je ~r~plny~s~.',
+	['not_enough_weed'] = 'Nemas dostatek travy k ~r~zabaleni~s~.',
+	['sold_one_weed'] = 'Prodal/a jsi ~y~x1~s~ ~y~Balicek travy~s~',
+	['used_one_weed'] = 'Uzil/a jsi 1 joint ~b~travy',
+
+	['inv_full_opium'] = 'Jiz nemuzes sbirat opium, tvuj inventar je ~r~plny~s~.',
+	['not_enough_opium'] = 'Nemas dostatek opia k ~r~zabaleni~s~.',
+	['sold_one_opium'] = 'Prodal/a jsi ~y~x1~s~ ~y~Balicek opia~s~',
+	['used_one_opium'] = 'Uzil/a jsi 1 balicek ~b~opia',
+
+	['inv_full_cigar'] = 'Jiz nemuzes sbirat cigar, tvuj inventar je ~r~plny~s~.',
+	['not_enough_cigar'] = 'Nemas dostatek cigar k ~r~zabaleni~s~.',
+	['sold_one_cigar'] = 'Prodal/a jsi ~y~x1~s~ ~y~Balicek cigar~s~',
+	['used_one_cigar'] = 'Uzil/a jsi 1 ~b~cigaretu',
+
+	['inv_full_lsd'] = 'Jiz nemuzes sbirat lsd, tvuj inventar je ~r~plny~s~.',
+	['not_enough_lsd'] = 'Nemas dostatek lsd k ~r~zabaleni~s~.',
+	['sold_one_lsd'] = 'Prodal/a jsi ~y~x1~s~ ~y~Balicek lsd~s~',
+	['used_one_lsd'] = 'Uzil/a jsi 1 balicek ~b~lsd',
+	
+	['no_pouches_sale'] = 'Nemas dalsi balicky k prodeji',
+	['exit_marker'] = 'Zmackni ~INPUT_CONTEXT~ pro ukonceni ~y~procesu~s~',
+	-- Blips
+	['coke_field'] = 'Sber kokainu',
+	['coke_processing'] = 'Zpracovani kokainu',
+	['coke_dealer'] = 'Prodej kokainu',
+	['meth_field'] = 'Sber pervitinu',
+	['meth_processing'] = 'Zpracovani pervitinu',
+	['meth_dealer'] = 'Prodej pervitinu',
+	['weed_field'] = 'Sber travy',
+	['weed_processing'] = 'Zpracovani travy',
+	['weed_dealer'] = 'Prodej travy',
+	['opium_field'] = 'Sber opia',
+	['opium_processing'] = 'Zpracovani opia',
+	['opium_dealer'] = 'Prodej opia',
+	['lsd_field'] = 'Sber lsd',
+	['lsd_processing'] = 'Zpracovani lsd',
+	['lsd_dealer'] = 'Prodej lsd',
+}

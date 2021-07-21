@@ -1,0 +1,10 @@
+cache
+cache/**/*
+
+resources/\[mapy\]/
+resources/\[mapy\]/**/*
+resources/[mapy]
+resources/[mapy]/**/*
+
+resources/nnvozidla/
+resources/nnvozidla/**

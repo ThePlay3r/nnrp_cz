@@ -1,0 +1,76 @@
+Config = {}
+Config.Locale = 'cs'
+
+Config.SeeOwnLabel = true
+Config.SeeDistance = 100
+Config.Labels = {
+    helper = "🕵🏽~g~Helper",
+    mod = "🕵🏽~g~Moderátor",
+    admin = "🕵🏽~b~Admin",
+    superadmin = "🕵🏽~r~Vedení"
+}
+
+Config.Teleports = {
+	adminroom = vector3(340.04, -37.37, 143.88),
+	hlgaraz = vector3(220.03, -814.61, 30.97),
+	ems = vector3(299.58, -581.8, 43.26),
+	ems2 = vector3(362.16, -583.37, 28.83),
+   	ems3 = vector3(312.33, -558.12, 28.88),
+	pd = vector3(431.29, -985.18, 30.71),
+	pdsatna = vector3(450.67, -991.76, 30.69),
+	sheriff = vector3(1860.92, 3681.79, 33.77),
+	veznice = vector3(1853.03, 2613.53, 45.67),
+	taxi = vector3(917.25, -177.48, 74.32),
+	vlada = vector3(-538.84, -231.07, 37.03),
+	bennys = vector3(-202.53, -1307.98, 31.29), 
+	atomic = vector3(482.42, -1890.06, 26.09),
+	ammu = vector3(17.97, -1119.65, 28.9), 
+	vinice = vector3(-1898.12, 2039.63, 141.85), 	
+	vanilla = vector3(135.35, -1304.9, 29.15),
+	galdin = vector3(-2194.47, -626.13, 12.71),
+	galdin2 = vector3(-2074.64, -494.4, 12.29),
+	galdin3 = vector3(-2320.37, -644.82, 9.73),
+	zensai = vector3(113.12, -1036.32, 29.34),
+	pracak = vector3(-261.11, -977.31, 31.22),
+	kasino = vector3(925.66, 52.0, 81.11),
+	pdm = vector3(-61.52, -1100.66, 26.35),
+	letiste = vector3(-1143.62, -2723.36, 13.96),
+	banka = vector3(227.3, 216.4, 105.55),
+	gym = vector3(-1207.48, -1570.4, 4.54),
+	coroner = vector3(231.71, -1387.02, 30.54),
+	paleto = vector3(105.46, 6609.4, 31.91),
+	vinegaraz = vector3(1213.79, 343.53, 81.99),
+	chiliad = vector3(501.59, 5603.89, 797.91),
+	letistesandy = vector3(1727.82, 3283.67, 41.07),
+	bazar = vector3(2129.29, 3882.52, 33.18),
+	autoskola = vector3(223.71, -1390.62, 30.55),
+	fd = vector3(-1672.95, 80.79, 65.2),
+	lanovka = vector3(-739.48, 5595.08, 41.65),
+	soud = vector3(246.55, -387.4, 45.4),
+	steakhouse = vector3(-702.22, 5805.73, 17.29),
+	letadlovka = vector3(3078.23, -4630.27, 15.26),
+	ranch = vector3(1392.89, 1116.81, 114.84),
+	zamecnik = vector3(174.55, -1798.02, 29.09),
+	lov = vector3(-810.58, 5409.83, 34.13),
+	sheriff2 = vector3(-438.14, 6018.11, 31.49),
+	lost = vector3(1995.22, 3056.64, 47.05),
+	vrakoviste = vector3(1366.13, -2083.65, 52.0),
+	kostel = vector3(-1680.02, -295.02, 51.81),
+	farma = vector3(2470.41, 4954.37, 45.11),
+	pivo = vector3(843.98, -1949.94, 29.0),
+	wcorp = vector3(813.19, -2140.86, 29.29),
+	medusa = vector3(761.48, -553.82, 32.79),
+	hotel = vector3(-853.52, -1278.43, 5.15),
+	kavarna = vector3(-630.44, 240.47, 81.9),
+	benefactor = vector3(-91.69, 77.82, 71.51),
+	specky = vector3(-917.23, -235.4, 39.71),
+	easyway = vector3(484.07, -3050.74, 6.23),
+	urad = vector3(-266.88, -968.89, 31.22),
+}
+
+Config.admin_groups = {"admin", "superadmin", "mod", "helper"}
+Config.warning_screentime = 10.0 * 1000 -- warning display length (in ms)
+Config.warningsDiscordHook = "https://discordapp.com/api/webhooks/700660793557123132/P6-2buGgC4bcvwvz057oTzOQ-aOOXAX91hd_FjKRnnqh1S_lrgD5YIsxzcYoML7bgZUQ"
+
+Config.AdminLogHook = 'https://discordapp.com/api/webhooks/704750000336535584/s56DSknFSvzOhLA9cpWdUeOdVGEgHfmE4qO1G84jlbAw2mZd8B2FYBtc2ojeNkFdx1tU'
+Config.AdminLogEnabled = true

@@ -1,0 +1,16 @@
+Locales['cs'] = {
+	['GPS_info'] = 'Byla vam nastavena ~y~GPS lokace',
+	['cancel_mission'] = 'Zrusil jsi praci',
+	['pickup'] = "~INPUT_CONTEXT~ pro cisteni zelene",
+	['end_service'] = 'Odejit ze sluzby',
+	['take_service'] = 'Vstoupit do sluzby',
+	['end_service_notif'] = 'Ukoncil jsi~r~praci',
+	['take_service_notif'] = 'Zacal jsi ~g~praci',
+	['start_job'] = 'Vezmi si vozidlo a stiskni klavesu HOME pro nastaveni GPS',
+	['Vehicle_Menu_Title'] = 'Garaz',
+	['in_vehicle'] = '~r~Odejdi z vozidla',
+	['vehicle_broken'] = '~r~Vase vozidlo se rozbilo',
+	['bad_vehicle'] = 'Muzete ulozit pouze firemni vozidlo',
+	['not_good_veh'] = '~r~Musite byt ve firemnim vozu',
+	['stop_npc'] = 'Action ~r~impossible~s~ : Rendez-vous au dépôt',
+}
